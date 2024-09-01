@@ -10,8 +10,10 @@ def calculate_floor(string):
     """
     
     lst=[]
+    # put the arg in a list
     for i in string:
         lst.append(i)
+    # if the number of input was not 4 , exit of prigram
     if len(lst)!=4 :
         print("invalid input")
         exit()
@@ -29,6 +31,6 @@ def calculate_floor(string):
     else:
         print("invalid input2")
         exit()
-    
+#taking input and call the funcyion 
 str=input()
 print(calculate_floor(str))
