@@ -6,9 +6,11 @@ def wow (num) :
     """
     
     print("w" , end="")
+    # how many print o in wow!
     for i in range (num):
         print("o" , end= "")
     print ("w!")
     
 n=int(input())
+# call th function
 wow(n)
